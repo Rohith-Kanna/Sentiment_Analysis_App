@@ -75,28 +75,8 @@ The app will open in your default browser at `http://localhost:8501`
 - **ML Library**: scikit-learn
 - **Data Processing**: pandas, numpy
 - **Language**: Python 3.8+
-
-## 🎨 Customization
-
-You can easily customize the app by:
-
-1. **Add more examples** in the `example_sentences` dictionary
-2. **Change colors** in the CSS styling section
-3. **Modify the model** to use different algorithms
-4. **Update the confidence threshold** for different use cases
-
-## ⚠️ Notes
-
-- The app automatically trains the model on first run and saves it for faster loading
-- Sarcasm and complex language might not be detected perfectly
-- Longer texts generally provide more accurate results
-- The model works best with English text
-
-## 🔄 Model Retraining
-
-To retrain the model with updated data:
-1. Delete `sentiment_model.pkl` and `vectorizer.pkl` files
-2. Run the app again, it will automatically retrain
+  
+---
 
 ## 📝 Example Sentences
 
@@ -114,22 +94,7 @@ To retrain the model with updated data:
 - "I hate waiting in long lines."
 - "This is absolutely terrible!"
 - "I don't like this at all."
-
-## 🐛 Troubleshooting
-
-**Issue**: CSV file not found
-- **Solution**: Make sure `sentimentDataset/sentiment_analysis.csv` exists in the NLP folder
-
-**Issue**: Model takes too long to load first time
-- **Solution**: This is normal on first run. Subsequent runs will be much faster.
-
-**Issue**: Low accuracy on custom text
-- **Solution**: Try using complete sentences rather than fragments
-
-## 📚 Related Files
-
-- `sentiment-analysis.ipynb`: Full model training notebook with detailed analysis
-- `sentimentDataset/sentiment_analysis.csv`: Training dataset
+---
 
 ## 🤝 Contributing
 
